@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VEREV - Portfolio Fotografico</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+            padding: 1rem;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+        .about, .contact {
+            background-color: #fff;
+            padding: 2rem;
+            margin: 1rem;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>VEREV</h1>
+        <p>Portfolio Fotografico di Veronika Cammarano</p>
+    </header>
+
+    <section class="gallery">
+        <img src="foto1.jpg" alt="Foto di matrimonio">
+        <img src="foto2.jpg" alt="Ritratto femminile">
+        <img src="foto3.jpg" alt="Paesaggio costiero">
+        <img src="foto4.jpg" alt="Natura morta">
+    </section>
+
+    <section class="about">
+        <h2>Chi sono</h2>
+        <p>Mi chiamo Veronika e amo la fotografia. Catturare momenti unici e trasformarli in ricordi indelebili è la mia passione.</p>
+    </section>
+
+    <section class="contact">
+        <h2>Contattami</h2>
+        <p>Email: veronikacammarano@gmail.com</p>
+        <p>Cellulare: 3703518624</p>
+        <p>Instagram: @verev.k</p>
+        <p>Facebook: Veronika Cammarano</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 VEREV. Tutti i diritti riservati.</p>
+    </footer>
+</body>
+</html>
